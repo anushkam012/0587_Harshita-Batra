@@ -22,7 +22,7 @@ int main(){
         for(int i=0;i<m;i++){ 
             sum=sum+arr[i][j]; 
         } 
-        // Printing the column sum.
+        // Printing the column sum  and getting the output.
         cout<<sum<<" "; 
     } 
 }
