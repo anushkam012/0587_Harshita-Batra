@@ -1,6 +1,7 @@
-#include <iostream> //preprocessor - include files
+//C++ Data Types
 
-using namespace std; //link object code to other code of std lib
+#include <iostream> 
+using namespace std; 
 
 int main()
 {
@@ -17,23 +18,24 @@ int main()
     int a = 80;
     cout <<"Size of after defining int"<< sizeof(a) <<endl;
 
-    float b = 6.8f; //write f at end known as reference variaable
+    float b = 6.8f;  //write f at end known as reference variaable
     cout<<sizeof(b)<<endl;
 
     cout <<"Size of float"<< sizeof(6.8f) <<endl;
 
-    long double d=567.8l;// write l at end or it assumes to be a float no matter of declaring
+    long double d=567.8l;
     cout<<sizeof(d)<<endl;
 
-    cout <<"Size of long double"<< sizeof(567.81) <<endl; //gives different answers
+    cout <<"Size of long double"<< sizeof(567.81) <<endl;
     cout <<"Size of long double"<< sizeof(567.8) <<endl;
 
 //size of float data type
     cout <<"Size of float: "<< sizeof(float) <<endl;
     cout <<"Size of double"<< sizeof(double) <<endl;
     cout <<"Size of long double: "<< sizeof(long double) <<endl;
+
 //size of char data type
     cout <<"Size of char"<< sizeof(char) <<endl;
-    cout <<"Size of unsigned char"<< sizeof(unsigned char) <<endl;//if  i write only unsiged it will show 4 for int by default
+    cout <<"Size of unsigned char"<< sizeof(unsigned char) <<endl;
     return 0;
 }
